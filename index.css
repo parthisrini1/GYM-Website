@@ -1,0 +1,898 @@
+Gallery* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: black;
+   
+}
+/* ----------------------------Navbar  Code Start -------------------------------------------------------*/
+
+ .navBar {
+    background-color: rgb(9, 8, 6);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+} 
+.navBar h1 {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.subNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-right: 50px;
+    color: white;
+    /* background-color: blue; */
+}
+.subNav a {
+    color: rgb(248, 243, 243);
+    font-size: 15px;
+     font-weight: 600;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.subNav button{
+    background-color: rgb(11, 241, 23);
+    color: rgb(248, 244, 244);
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 10px;
+    border-radius: 10px;
+    border: 10px white;
+}
+
+.subNav a:hover {
+    background-color: rgb(11, 241, 23);
+}
+.menuIcon {
+    display: none!important;
+}
+input {
+    display: none;
+}
+
+/* ----------------------------Navbar  Code End -------------------------------------------------------*/
+
+
+/* ----------------------------Profile  Code Start -------------------------------------------------------*/
+
+.container-profile{
+    background-image: url(profile.jpg) ;    
+  background-position: center top ;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+    padding: 200px;  
+   
+    
+}
+
+
+.profile-text{
+    color: rgb(253, 253, 251);
+ 
+}
+
+.profile-text h2{
+    position: relative;
+    font-size: 65px;
+    letter-spacing: 5px;
+    top: -60px;
+    right: 1px;
+    font-weight: 800;
+    text-shadow: 2px 2px 4px #030303;
+    
+  
+
+}
+
+.profile-text p{
+    position: relative;
+    font-size: 18px;
+    top: -50px;
+    text-shadow: 1px 1px #020202;
+    line-height: 2;
+}
+
+.profile-text button{
+    background-color: rgb(11, 241, 23);
+    color: rgb(248, 244, 244);
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 2px;
+    border-radius: 10px;
+    border: 10px white;
+
+
+}
+
+.profile-text button:hover{
+    background-color: rgb(7, 43, 250);
+    color: rgb(248, 244, 244);
+    transition: all 2s;
+    
+
+}
+
+/* ----------------------------Profile  Code End -------------------------------------------------------*/
+
+/* ----------------------------introduction  Code Start -------------------------------------------------*/
+
+.row{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 20px;
+    
+    
+
+}
+
+.column{
+   padding: 30px;
+ 
+}
+
+.card-one {
+    width: 250px;
+    height: 200px;
+    text-align: center;
+    color: white;
+    transition: all 5s;
+    background-color: black;
+    font-size: 20px;
+    border-radius: 20px;
+    position: relative;
+    left: -15px;
+    box-shadow: 0px 0px 5px 1px rgb(246, 247, 245);
+        
+  }
+
+  .card-two {
+    width: 250px;
+    height: 200px;
+    text-align: center;
+    color: white;
+    transition: all 5s;
+    background-color: black;
+    font-size: 20px;
+    border-radius: 20px;
+    position: relative;
+    left: -80px;
+    box-shadow: 0px 0px 5px 1px rgb(246, 247, 245);
+  }
+
+  .card-three {
+    width: 250px;
+    height: 200px;;
+    text-align: center;
+    color: white;
+    transition: all 5s;
+    background-color: black;
+    font-size: 20px;
+    border-radius: 20px;
+    position: relative;
+    left: -145px;  
+    box-shadow: 0px 0px 5px 1px rgb(246, 247, 245);
+  }
+
+.card-four{
+    width: 250px;
+    height: 200px;
+    text-align: center;
+    color: white;
+    transition: all 5s;
+    background-color: black;
+    font-size: 20px;
+    border-radius: 20px;
+    position: relative;
+    left: -210px;  
+    box-shadow: 0px 0px 5px 1px rgb(246, 247, 245);
+    
+ }
+ .card-five{
+    width: 250px;
+    height: 200px;
+    text-align: center;
+    color: white;
+    transition: all 5s;
+    background-color: black;
+    font-size: 20px;
+    border-radius: 20px;
+    position: relative;
+    left: -270px;  
+    box-shadow: 0px 0px 5px 1px rgb(246, 247, 245);
+ }
+
+ .icon{
+    font-size: 35px;
+    position: relative;
+    top: 50px;
+   color: rgb(247, 243, 5);
+ }
+ 
+
+.card-one p{
+    font-size: 20px;
+    position: relative;
+    top: 80px;
+    letter-spacing: 2px;
+    font-style: italic;
+    color: white;
+}
+
+.card-two p{
+    font-size: 20px;
+    position: relative;
+    top: 80px;
+    letter-spacing: 2px;
+    font-style: italic;
+    color: white;
+}
+
+.card-three p{
+    font-size: 20px;
+    position: relative;
+    top: 80px;
+    letter-spacing: 2px;
+    font-style: italic;
+    color: white;
+}
+
+.card-four p{
+    font-size: 20px;
+    position: relative;
+    top: 80px;
+    letter-spacing: 2px;
+    font-style: italic;
+    color: white;
+}
+.card-five p{
+    font-size: 20px;
+    position: relative;
+    top: 80px;
+    letter-spacing: 2px;
+    font-style: italic;
+    color: white;
+}
+
+.card-one:hover{
+    background-color: rgb(142, 243, 11);
+    transition: all 5s;
+}
+
+.card-two:hover{
+    background-color: rgb(142, 243, 11);
+    transition: all 5s;
+}
+.card-three:hover{
+    background-color: rgb(142, 243, 11);
+    transition: all 5s;
+}
+.card-four:hover{
+    background-color: rgb(142, 243, 11);
+    transition: all 5s;
+}
+.card-five:hover{
+    background-color: rgb(142, 243, 11);
+    transition: all 5s;
+}
+/* ----------------------------introduction  code End -------------------------------------------------*/
+
+.OurClass-Heading {
+    position: relative;
+    left: 550px;
+    font-size: 35px;
+    color: rgb(44, 248, 3);
+    text-shadow: 2px 2px 4px #5ef804;
+    letter-spacing: 4px;
+    font-style: italic;
+}
+
+.OurClass{
+    display: grid;
+    grid-template-columns: auto auto ;
+    gap: 20px;
+    padding: 30px;
+}
+
+
+.OurClass-column{
+    padding: 10px;
+    
+}
+
+.OurClass-Card {
+    background-color: rgb(7, 7, 7);
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px 1px rgb(246, 247, 245);
+    
+
+}
+ 
+
+.OurClass-Card img{
+   width: 600px;
+   height: 350px;
+   border-radius: 50px;
+   padding: 10px;
+   transition: transform .4s;    
+}
+
+
+.OurClass-Card h5{
+    position: relative;
+    top: -40px;
+    left: 270px;
+    line-height: 1;
+    color: rgb(6, 245, 6);
+    font-size: 25px;
+    font-style: italic;
+ }
+ 
+
+.OurClass-Card p{
+    position: relative;
+    top: -60px;
+    left: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 2;
+    
+ }
+ 
+
+ .OurClass-Card img:hover {
+    transform: scale(0.9);
+    transform-origin: 60% 60%;
+    
+ }
+
+.Additional-Heading{
+    position: relative;
+    left: 280px;
+    font-size: 35px;
+    color: rgb(11, 241, 23);
+    text-shadow: 2px 2px 4px #5ef804;
+    letter-spacing: 4px;
+    font-style: italic;
+    line-height: 2;
+}
+
+
+ .Additional{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    padding: 20px;
+    
+}
+
+.Additional-Card {
+    position: relative;
+}
+
+.Additional-Card>p {
+    position: absolute;
+    color: rgb(10, 10, 10);
+    display: flex;
+    background-color: rgb(247, 243, 3);
+    top:350px;
+    left: -0px;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 5px;
+    letter-spacing: 2px;
+    font-style: oblique;
+}
+
+.Additional-Card img{
+    width: 450px;
+   height: 410px;
+   
+}
+
+
+
+.Group-training-Heading{
+    position: relative;
+    left: 280px;
+    font-size: 35px;
+    color: rgb(11, 241, 23);
+    text-shadow: 2px 2px 4px #5ef804;
+    letter-spacing: 4px;
+    font-style: italic;
+    line-height: 2;
+}
+
+
+ .Group-training{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+}
+
+.Group-training-Card {
+    position: relative;
+}
+
+.Group-training-Card>p {
+    position: absolute;
+    color: rgb(10, 10, 10);
+    display: flex;
+    background-color: rgb(247, 243, 3);
+    top:350px;
+    left: -0px;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 5px;
+    letter-spacing: 2px;
+    font-style: oblique;
+}
+
+.Group-training-Card img{
+    width: 350px;
+   height: 410px;
+   
+}
+
+
+.about-me{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+    
+}
+
+
+.about-text h2{
+    position: relative;
+    top: -50px;
+    right: 20px;
+    font-size: 60px;
+    color: white;
+    
+}
+
+.about-text p{
+    position: relative;
+    top: -10px;
+    right: 20px;
+    font-size: 20px;
+    line-height: 2;
+    color: whitesmoke;
+
+}
+
+.about-image img{
+    position: relative;
+    left: 10px;
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+    border: 20px solid black;
+    box-shadow: 0px 0px 5px 1px rgb(246, 247, 245);
+}
+
+
+.heading h2{
+    position: relative;
+    left: 500px;
+    color: rgb(44, 248, 3);
+    text-shadow: 2px 2px 4px #5ef804;
+    letter-spacing: 3px;
+    font-weight: 700;
+    font-size: 25px;
+    font-style: italic;
+}
+
+
+.GYM-Fees-Heading{
+    position: relative;
+    left: 150px;
+    font-size: 35px;
+    color: rgb(11, 241, 23);
+    text-shadow: 2px 2px 4px #5ef804;
+    letter-spacing: 4px;
+    font-style: italic;
+    line-height: 2;
+}
+
+
+
+.Gallery {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;  
+    padding: 30px;
+    
+  }
+  
+  .Gallery > div {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .Gallery > div img {
+    width: 300px;
+    border-radius: 20px;
+  }
+
+
+
+.gym-heading{
+    position: relative;
+    left: 250px;
+    top: -30px;
+    font-size: 35px;
+    color: rgb(11, 241, 23);
+    text-shadow: 2px 2px 4px #5ef804;
+    letter-spacing: 4px;
+    font-style: italic;
+    line-height: 2.5;
+}
+
+
+
+  .Gym{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 40px;
+    padding: 10px;
+    
+    
+
+}
+.Gym-column{
+   padding: 0px;
+   width: 300px;
+   height: 400px;
+   background-color: rgb(10, 10, 10);
+   position: relative;
+   left: 5px;
+   top: -50px;
+ 
+ 
+}
+
+.Gym-one img{
+    width: 300px;
+    position: relative;
+    left: 50px;
+    top: 50px;
+
+}
+
+.Gym-two img{
+    width: 300px;
+    position: relative;
+    left: 50px;
+    top: 50px;
+
+}
+.Gym-three img{
+    width: 300px;
+    position: relative;
+    left: 50px;
+    top: 50px;
+
+}
+.Gym-four img{
+    width: 300px;
+    position: relative;
+    left: 50px;
+    top: 50px;
+
+}
+
+
+
+.Gym-one {
+    width: 320px;
+    height: 200px;
+    text-align: center;
+    color: white;
+    transition: all 5s;
+    font-size: 20px;
+    border-radius: 20px;
+    position: relative;
+    right: 60px;  
+    top:-50px;
+   
+        
+  }
+
+  .Gym-two {
+    width: 250px;
+    height: 200px;
+    text-align: center;
+    color: white;
+    transition: all 5s;
+    background-color: black;
+    font-size: 20px;
+    border-radius: 20px;
+    position: relative;
+    right: 50px;
+    top:-50px;  
+
+  }
+
+  .Gym-three {
+    width: 250px;
+    height: 200px;;
+    text-align: center;
+    color: white;
+    transition: all 5s;
+    background-color: black;
+    font-size: 20px;
+    border-radius: 20px;
+    position: relative;
+    right: 50px;  
+    top:-50px; 
+    
+  }
+
+.Gym-four{
+    width: 250px;
+    height: 200px;
+    text-align: center;
+    color: white;
+    transition: all 5s;
+    background-color: black;
+    font-size: 20px;
+    border-radius: 20px;
+    position: relative;
+    right: 50px;  
+    top:-50px;
+  
+    
+ }
+
+ 
+ 
+
+.Gym-one p{
+    font-size: 20px;
+    position: relative;
+    top: 40px;
+    left:40px;
+    letter-spacing: 2px;
+    font-style: italic;
+    color: white;
+    line-height: 1.2;
+}
+
+.Gym-two p{
+    font-size: 20px;
+    position: relative;
+    top: 40px;
+    left:70px;
+    letter-spacing: 2px;
+    font-style: italic;
+    color: white;
+    line-height: 1.2;
+}
+
+.Gym-three p{
+    font-size: 20px;
+    position: relative;
+    top: 40px;
+    left:70px;
+    letter-spacing: 2px;
+    font-style: italic;
+    color: white;
+    line-height: 1.2;
+}
+
+.Gym-four p{
+    font-size: 20px;
+    position: relative;
+    top: 40px;
+    left:70px;
+    letter-spacing: 2px;
+    font-style: italic;
+    color: white;
+    line-height: 1.2;
+    
+}
+
+.GyGym-one button{
+    position: relative;
+    top: 28px;
+    left: 10px;
+    background-color: rgb(32, 17, 238);
+    color: rgb(248, 244, 244);
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 15px rgb(255, 3, 3);
+    padding: 5px;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    font-style: oblique;
+    
+   
+}
+
+.Gym button{
+    position: relative;
+    top: 28px;
+    left: 70px;
+    background-color: rgb(11, 241, 23);
+    color: rgb(248, 244, 244);
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 15px rgb(255, 3, 3);
+    padding: 5px;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    font-style: oblique;
+    
+   
+}
+
+.Gym button:hover{
+    background-color: rgb(6, 245, 245);
+    color: white;
+}
+
+.footer{
+    background-color: rgb(15, 15, 15);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 70px;
+    color: white;
+}
+
+
+
+
+.footer .footer-icon {
+    position: relative; 
+    top: 48px; 
+    left: -82px; 
+    font-size: 30px; 
+    background-color: rgb(5, 5, 5); 
+    color: rgb(253, 251, 251);
+    padding: 15px;
+}
+
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 20px;
+}
+
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 20px;
+}
+
+.copyright h5{
+  font-size: 15px;
+  color: white;
+}
+
+.icons{
+    font-size: 20px;
+    color: white;
+    padding-left: 10px;
+}
+
+
+.copyright p{
+    font-size: 15px;
+    color: white;
+}
+
+
+
+.footermain h2{
+   color: rgb(11, 241, 23);
+   text-shadow: 2px 2px 4px #5ef804;
+   position: relative;
+   top: 75px;
+   left: 450px;
+   font-size: 30px;
+   letter-spacing: 5px;
+   font-style: oblique;
+   
+   
+}
+
+
+
+
+@media screen and (min-width: 300px) and (max-width:800px) {
+    .subNav {
+        position: fixed;
+        flex-direction: column;
+        justify-content: start;
+        padding: 25px 0px 0px;
+        left: -200%;
+        /* left: 0; */
+        top: 53px;
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(36, 40, 30);
+        transition: all 1s;
+    }
+    .menuIcon {
+     
+        font-size: 25px;
+        color: white;
+        background-color: red;
+    }
+    input:checked~.subNav {
+        left: 0;
+        /* background-color: aqua; */
+    }
+
+.container-profile{
+    display: block;
+    flex-direction: column;
+    width: 200px;
+}
+.profile-text h2{
+    position: relative;
+    font-size: 25px;
+    letter-spacing: 5px;
+    top: -60px;
+    right: 1px;
+    font-weight: 800;
+    text-shadow: 2px 2px 4px #030303;
+    color: red;
+    
+  
+
+}
+
+.profile-text p{
+    position: relative;
+    font-size: 10px;
+    top: -50px;
+    text-shadow: 1px 1px #020202;
+    line-height: 2;
+}
+
+.profile-text button{
+    background-color: rgb(11, 241, 23);
+    color: rgb(248, 244, 244);
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 2px;
+    border-radius: 10px;
+    border: 10px white;
+
+
+}
+
+
+}
